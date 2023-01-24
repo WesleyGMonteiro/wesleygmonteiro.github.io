@@ -14,22 +14,22 @@ header {
 }
 
 .menu h1 {
-    display: inline-block;
+    display: inline;
 }
 
 .logo {
     width: 240px;
 }
 
-nav {
+.menu nav {
     position: absolute;
+    top: 20px;
     right: 0;
-    top: 34px;
 }
 
 nav li {
     display: inline;
-    margin: 0px 10px;
+    margin-right: 20px;
     padding: 5px;
 }
 
@@ -44,6 +44,10 @@ nav a {
 nav a:hover {
     color: #ffffff4f;
     text-decoration: underline;
+}
+
+main {
+    background-color: #ccc;
 }
 
 main .presentation {
