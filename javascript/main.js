@@ -10,9 +10,6 @@ function calcularPitagoras(){
         document.getElementById('hipotenusa').value = "";
         document.getElementById('cateto-oposto').value = "";
         document.getElementById('cateto-adjacente').value = "";
-
-    }else if(hip.value && catb.value && catc.value == null){
-        alert("NADA A VER");
     }else {
         if(catb.value && hip.value > 0){
             hip.value *= hip.value;
