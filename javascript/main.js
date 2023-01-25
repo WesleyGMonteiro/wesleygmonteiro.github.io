@@ -1,4 +1,3 @@
-
 const hip = document.querySelector('#hipotenusa');
 const catb = document.querySelector('#cateto-oposto');
 const catc = document.querySelector('#cateto-adjacente');
@@ -6,7 +5,7 @@ const resultado = document.querySelector('#total');
 
 function calcularPitagoras(){
     if(hip.value && catb.value && catc.value > 0){
-        alert("Você já tem a conta feita :)");
+        resultado.innerHTML = "Você já possui o cálculo feito !";
         document.getElementById('hipotenusa').value = "";
         document.getElementById('cateto-oposto').value = "";
         document.getElementById('cateto-adjacente').value = "";
@@ -33,4 +32,3 @@ function calcularPitagoras(){
 document.querySelector('.calculate').onclick = function(){
     calcularPitagoras();
 }
-
