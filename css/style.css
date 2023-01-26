@@ -9,7 +9,6 @@ body {
 
 header {
     background-color: #003044;
-    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,7 +116,6 @@ main {
 
 footer {
     background-color: #003044;
-    height: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
